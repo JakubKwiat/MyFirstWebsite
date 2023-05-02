@@ -1,0 +1,68 @@
+body
+{
+	width: 100%;
+	margin:auto;
+	background-color:#333333;
+}
+header
+{
+	width:100%;
+	font-size:60px;
+	color:white;
+	text-align:center;
+	margin:auto;
+}
+main
+{
+	color:white;
+	font-size:25px;
+	width:1500px;
+	margin:auto;
+}
+footer
+{
+	clear: both;
+	width:100%;
+	background-color:black;
+	color:white;
+	text-align: center;
+	font-size: 30px;
+}
+.left
+{
+	float:left;
+	height:400px;
+}
+.right
+{
+	float:right;
+	height:400px;
+	width:700px;
+}
+.dogory
+{
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	font-size:30px;
+	text-decoration:none;
+	color:white;
+	opacity:0.6;
+}
+#dance
+{
+	padding-top:50px;
+	margin:auto;
+	text-align:center;
+}
+#dance a{
+	position:relative;
+	top:0;
+	margin-right:10px;
+}
+a
+{
+	text-decoration:none;
+	color:yellow;
+	font-size: 25px;
+}

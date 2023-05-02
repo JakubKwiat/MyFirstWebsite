@@ -1,0 +1,163 @@
+body
+{
+	width: 100%;
+	margin:auto;
+	background-color:#333333;
+}
+main{
+	width: 1500px;
+	margin-left:auto;
+	margin-right: auto;
+	padding-top:50px;
+}
+#napis
+{
+	color:white;
+	padding:5px;
+	font-size:60px;
+	text-align: left;
+	padding-left:280px;
+}
+#zegar
+{
+	float:right;
+	color:white;
+	padding-right:180px;
+}
+.zdjecieszerokie
+{
+	float:left;
+	width:420px;
+	height:250px;
+	margin:38px;
+	border:2px solid white;
+}
+.zdjeciepionowe
+{
+	float:left;
+	width:295px;
+	height:420px;
+	margin:38px;
+	border:2px solid white;
+}
+footer
+{
+	clear: both;
+	width:100%;
+	background-color:black;
+	color:white;
+	text-align: center;
+	font-size: 30px;
+}
+header
+{
+	width:100%;
+	font-size:60px;
+	color:white;
+	text-align:center;
+	margin:auto;
+}
+nav
+{
+	width:1800px;
+	margin:auto;
+}
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	height: 60px;
+	line-height: 200%;
+	display: inline-block;
+}
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 360px;
+	height: 60px;
+	text-align:center;
+	font-size:40px;
+	padding-top:20px;
+	background-color:black;
+}
+ol > li:hover
+{
+	background-color: #CCCC00;
+}
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 60px;
+	display: none;
+}
+ol > li:hover > ul
+{
+	display: block;
+}
+ol > li > ul > li
+{
+	background-color:black;
+	height:90px;
+	padding-top:20px;
+}
+ol > li > ul > li:hover
+{
+	background-color: #CCCC00;
+}
+section
+{
+	width:1500px;
+	margin-right:auto;
+	margin-left:auto;
+}
+td
+{
+	border:3px solid white;
+	width:450px;
+	font-size:30px;
+	color:white;
+	height:35px;
+}
+table{
+	margin:auto;
+	margin-bottom:150px;
+}
+#tytul
+{
+	text-align:center;
+	text-aligh:top;
+	clear:both;
+}
+.wektor
+{
+	float:left;
+	margin-right:233px;
+}
+.wektorprawy
+{
+	float:right;
+}
+#wektorki
+{
+	width:1500px;
+	font-size:60px;
+	color:white;
+	text-align:center;
+	margin:auto;
+}
+#opener
+{
+	background-color:yellow;
+	height:50px;
+	font-size:30px;
+}

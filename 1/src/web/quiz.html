@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <title>ANKIETA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="desciption" content="Kilka słów o życiu Filipa Szcześniaka i jego wszystkich płytach " />
+    <link rel="stylesheet" href="quiz.css" />
+	<link rel="stylesheet" href="jqueryui/jquery-ui.css" />
+	<link rel="stylesheet" href="jqueryui/jquery-ui.structure.css" />
+	<link rel="stylesheet" href="jqueryui/jquery-ui.theme.css" />
+	<script src="jquery-3.5.1.min.js"  ></script>
+		<script src="jqueryui/jquery-ui.js" > </script>
+		<script  src="quiz.js"></script>
+</head>
+<body>
+<header>
+		ANKIETA
+</header>
+<nav>
+<div id="contact">
+<button onclick="myFunction()">Kontakt</button>
+</div>
+<noscript>
+<div id="bezjs">
+Przykładowy mail <br> Jeśli masz wyłączony Java script podliczanie ankiet <b>nie działa </b>!!!
+</div>
+</noscript>
+</nav>
+<main>
+				<div id="gratulacje" >
+				<h1> Prosze o wzięciu udziału w ankiecie ! </h1>
+				</div >
+				<div id="ankieta">
+				<form action="form.php" method="post" target="_blank">
+				Imię :
+				<input type="text" name="firstname"><br>
+				<input type="checkbox" name="check"> Jesteś studentem?	<br> 
+				Data Urodzenia: <input type="text" id="datepicker"><br>
+				<p>Od ilu lat słuchasz piosenek Filipa? </p>
+				<input type="number" name="ileczasu"><br>
+				<p> Czy byłeś kiedyś na koncercie Taco? </p>
+				<input type="radio" name="koncert" value="tak" > Tak
+  				<input type="radio" name="koncert" value="nie"> Nie
+				<fieldset>
+				<legend>Ile masz płyt Taco Hemingwaya?</legend>
+				<label for="radio-1">0</label>
+				<input type="radio" name="radio-1" id="radio-1">
+				<label for="radio-2">1</label>
+				<input type="radio" name="radio-1" id="radio-2">
+				<label for="radio-3">2-3</label>
+				<input type="radio" name="radio-1" id="radio-3">
+				<label for="radio-4">Ponad 3</label>
+				<input type="radio" name="radio-1" id="radio-4">
+				</fieldset>
+				<p> Czy podobała ci się ta strona?</p>
+				<label><input type="radio" name="strona" value="tak" > Tak </label>
+  				<label><input type="radio" name="strona" value="nie"> Nie <br></label>
+				<p>Ocena strony od 1 do 10</p>
+				<select>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				</select><br>
+				<input type="Reset" value="reset">
+				<div onclick="count_clicks_session();">
+				<div onclick="count_clicks();" >
+				<input type="submit" value="Zatwierdź" onclick="wyswietl();" >
+				</div>
+				</div>
+				<div id="result"  >
+				Liczba Wypełnionych Ankiet Ogólnie:
+				</div>
+				<div id="result-session">
+				Liczba Wypiełnionych Ankiet W Tej Sesji:
+				</div>
+				</form>
+				</div>
+				</main>
+				<footer>
+		Projekt 2020, Jakub Kwiatkowski , 184348
+		</footer>
+</body>
+</html>

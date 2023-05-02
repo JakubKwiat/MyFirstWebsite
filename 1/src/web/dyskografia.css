@@ -1,0 +1,122 @@
+body
+{
+	width: 100%;
+	margin:auto;
+	background-color:#333333;
+}
+.logo
+{
+	color:white;
+	padding:5px;
+	font-size:60px;
+	text-align: center;
+	padding-top:20px;
+}
+.kafellewy
+{
+	float:left;
+	height:435px;
+	width:26%;
+	border:0;
+	margin-bottom:50px;
+	margin-left:6%;
+	margin-right:5%;
+}
+.kafelsrodek
+{
+	float:left;
+	height:435px;
+	width:26%;
+	border:0;
+	margin-bottom:50px;
+	margin-right:5%
+}
+.kafelprawy
+{
+	float:left;
+	height:435px;
+	width:26%;
+	border:0;
+	margin-bottom:50px;
+	margin-right:6%;
+}
+.miniaturalewa
+{
+	float:left;
+	height:400px;
+	width:100%;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	margin:auto;
+}
+.miniaturasrodek
+{
+	float:left;
+	height:400px;
+	width:100%;
+	border:0;
+	margin:0px;
+	padding:0px;
+	margin:auto;
+}
+.miniaturaprawa
+{
+	float:left;
+	height:400px;
+	width:100%;
+	border:0;
+	margin:0px;
+	padding:0px;
+	margin:auto;
+}
+.napis
+{
+	width:100%;
+	height:35px;
+	background-color:#AAAAAA;
+	font-size:30px;
+	text-align:center;
+	clear:both;
+	margin:0px;
+}
+a.tilelink
+{
+	color:black;
+	text-decoration:none;
+}
+.napis:hover
+{
+	background-color:#999999;
+}
+footer
+{
+	clear: both;
+	width:100%;
+	background-color:black;
+	color:white;
+	text-align: center;
+	font-size: 30px;
+}
+.dogory
+{
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	font-size:30px;
+	text-decoration:none;
+	color:white;
+	opacity:0.6;
+}
+/*RWD - responsive web design*/
+@media screen and (max-width: 768px) {
+	body{width:auto;}
+   .kafellewy{margin-left:10%;margin-right:10%;padding: 0px;width:80%}
+   .kafelsrodek{ margin-left:10%;margin-right:10%; padding:0px;width:80%}
+   .kafelprawy{ margin-left:10%;margin-right:10%; padding:0px;width:80%}
+   .napis{ margin-left:10%;margin-right:10%; padding:0px;width:80%}
+   .dogory{margin:auto; float:none;}
+   footer{margin:auto;}
+}
+
+

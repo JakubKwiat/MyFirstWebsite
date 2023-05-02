@@ -1,0 +1,56 @@
+body
+{
+	width: 100%;
+	margin:auto;
+	background-color:#333333;
+}
+header
+{
+	width:1500px;
+	font-size:60px;
+	color:white;
+	text-align:center;
+	margin:auto;
+}
+section
+{
+	width:1500px;
+	margin-right:auto;
+	margin-left:auto;
+}
+td
+{
+	border:3px solid white;
+	width:450px;
+	font-size:30px;
+	color:white;
+	height:35px;
+}
+table{
+	margin:auto;
+	margin-bottom:150px;
+}
+footer
+{
+	clear: both;
+	width:100%;
+	background-color:black;
+	color:white;
+	text-align: center;
+	font-size: 30px;
+}
+#tytul
+{
+	text-align:center;
+	text-aligh:top;
+	clear:both;
+}
+.wektor
+{
+	float:left;
+	margin-right:233px;
+}
+.wektorprawy
+{
+	float:right;
+}
